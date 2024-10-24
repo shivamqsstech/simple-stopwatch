@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(assets/abstract-luxury.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.main-body{
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background: transparent;
+    background-color:hsla(0, 95%,99%, .485) ;
+}
+
+h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+
+}
+
+
+.start{
+    width: 31%;
+    padding: 2px;
+    background-color: hwb(120 59% 3% / 0.949);
+    font-weight: 700;
+    font-size: large;
+}
+
+.stop{
+    width: 31%;
+    padding: 2px;
+    background-color: rgb(253, 43, 43);
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+.reset{
+    width: 31%;
+    padding: 2px;
+    background-color: rgb(67, 67, 255);
+    font-weight: 700;
+    font-size: large;
+}
+
+.stopwatch-title {
+    position: absolute; /* Position it over the container */
+    top: 22%;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+
+}
+
+.components{
+    margin-top: 15px;
+    padding: auto;
+}
